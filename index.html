@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Processing App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Data Processing Application</h1>
+    </header>
+    <main>
+        <section id="upload-section">
+            <h2>Upload Data</h2>
+            <input type="file" id="file-input" accept=".csv, .xlsx">
+            <button id="process-btn">Process Data</button>
+        </section>
+        <section id="result-section" style="display:none;">
+            <h2>Results</h2>
+            <pre id="result-output"></pre>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
